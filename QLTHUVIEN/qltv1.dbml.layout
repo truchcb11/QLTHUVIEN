@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="qltv1">
+  <DataContextMoniker Name="/qltv1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="577fd003-25c0-4025-9da7-3e136de828d9" absoluteBounds="6.375, 4.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/qltv1DataContext/docgia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5820dfd5-ac72-47f2-849f-355cea4d2fac" absoluteBounds="6.39, 5.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="25d67b56-d38c-41a7-b1da-ec017a4ab24d" absoluteBounds="0.5, 3.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/qltv1DataContext/nhanvien" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6b573b94-9d55-45e1-9705-61ae0dc0cfe0" absoluteBounds="0.51499999999999968, 4.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="dfd001bc-0713-4047-92e0-36b8a5aaa0f8" absoluteBounds="8.625, 0.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/qltv1DataContext/nhaxuatban" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f4e604b2-8d5a-442b-8a65-673e98ea2809" absoluteBounds="8.64, 0.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="9f8c9c97-ee13-4d85-8c51-83a27b894e24" absoluteBounds="6.125, 1.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/qltv1DataContext/phiemmuontra" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5045f1d2-4ba3-40e3-b003-25b902624a7a" absoluteBounds="6.1400000000000006, 2.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(7.25 : 4.75); (7.25 : 3.90549967447917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qltv1DataContext/docgia/docgia_phiemmuontra" />
+      <nodes>
+        <classShapeMoniker Id="577fd003-25c0-4025-9da7-3e136de828d9" />
+        <classShapeMoniker Id="9f8c9c97-ee13-4d85-8c51-83a27b894e24" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.5 : 4.32775233723958); (6.21875 : 4.32775233723958); (6.21875 : 3.90549967447917)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qltv1DataContext/nhanvien/nhanvien_phiemmuontra" />
+      <nodes>
+        <classShapeMoniker Id="25d67b56-d38c-41a7-b1da-ec017a4ab24d" />
+        <classShapeMoniker Id="9f8c9c97-ee13-4d85-8c51-83a27b894e24" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="a58c9902-fdd2-40c9-bd9d-ee30cd2c4065" absoluteBounds="3.5, 0.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/qltv1DataContext/sach" />
+      <nestedChildShapes>
+        <elementListCompartment Id="1961f192-8c00-4ba2-b851-cfe8972097c7" absoluteBounds="3.5149999999999997, 0.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 2.10659912109375); (6.125 : 2.10659912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qltv1DataContext/sach/sach_phiemmuontra" />
+      <nodes>
+        <classShapeMoniker Id="a58c9902-fdd2-40c9-bd9d-ee30cd2c4065" />
+        <classShapeMoniker Id="9f8c9c97-ee13-4d85-8c51-83a27b894e24" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.625 : 1.09375); (5.5 : 1.09375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qltv1DataContext/nhaxuatban/nhaxuatban_sach" />
+      <nodes>
+        <classShapeMoniker Id="dfd001bc-0713-4047-92e0-36b8a5aaa0f8" />
+        <classShapeMoniker Id="a58c9902-fdd2-40c9-bd9d-ee30cd2c4065" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="301392f7-b708-420a-9160-ecac52040086" absoluteBounds="0.625, 2.375, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/qltv1DataContext/tacgia" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d06948d-2f9b-46d8-8d3e-816bc09dda35" absoluteBounds="0.64000000000000057, 2.835, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.625 : 3.01609587760417); (4.5 : 3.01609587760417); (4.5 : 2.4631982421875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/qltv1DataContext/tacgia/tacgia_sach" />
+      <nodes>
+        <classShapeMoniker Id="301392f7-b708-420a-9160-ecac52040086" />
+        <classShapeMoniker Id="a58c9902-fdd2-40c9-bd9d-ee30cd2c4065" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="72f42dc3-29af-4ab0-9fed-378709b7cc33" absoluteBounds="0.5, 0.5, 2, 1.1939925130208333">
+      <DataClassMoniker Name="/qltv1DataContext/theloai" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e0ba1cc7-407e-495d-91d3-2694ec399742" absoluteBounds="0.51500000000000012, 0.96, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.5 : 1.09699625651042); (3.5 : 1.09699625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/qltv1DataContext/theloai/theloai_sach" />
+      <nodes>
+        <classShapeMoniker Id="72f42dc3-29af-4ab0-9fed-378709b7cc33" />
+        <classShapeMoniker Id="a58c9902-fdd2-40c9-bd9d-ee30cd2c4065" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

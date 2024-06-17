@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="QLTV">
+  <DataContextMoniker Name="/QLTVDataContext" />
+  <nestedChildShapes>
+    <classShape Id="00e35111-083d-4db1-a1ac-07add532f175" absoluteBounds="6.125, 1.5, 2, 1.9631982421875">
+      <DataClassMoniker Name="/QLTVDataContext/nguoidung" />
+      <nestedChildShapes>
+        <elementListCompartment Id="afffcc26-c291-4eb2-b5f3-cc1a14f1798b" absoluteBounds="6.14, 1.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
